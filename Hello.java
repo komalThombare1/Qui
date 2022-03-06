@@ -1,5 +1,8 @@
 public class Hello {
    String name;
+   String m;
+   int a=10;
+   System.out.println(a);
    //Constructor
    Hello(){
       this.name = "BeginnersBook.com";
