@@ -24,7 +24,7 @@ class MethodOverloading
         result = Obj .demo(5.5);
         System.out.println("O/P : " + result);
         
-         System.out.println("O/P : " + result);
+        
          System.out.println("O/P : " + result);
          System.out.println("O/P : " + result);
     }
