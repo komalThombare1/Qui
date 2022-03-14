@@ -5,7 +5,7 @@
     },
     "repositories": [
         {
-            "dataDir": "D:/testing",
+            "dataDir": "D:/testing/temp2",
             "repository": {
                 "uid": "fa3bd67a1e30ef5fdcebb39e738a3d7a",
                 "projectName": "Q",
