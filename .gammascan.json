@@ -1,0 +1,141 @@
+{
+    "gammaAccess": {
+        "url": "C:/ProgramData/Jenkins/.jenkins/workspace/",
+        "token": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTY0NzIzODMxNjQ2OCwiaWF0IjoxNjQ3MjM4MzE2fQ.thR2bf3xmQJsXagdWWFH8GiKNk5zYK5EdoDmGA3gnRMEqVqwC2P4x9Nl2qTPKZe6y0VC0Sa90UHdkm8lakL3dw"
+    },
+    "repositories": [
+        {
+            "dataDir": "D:/testing",
+            "repository": {
+                "uid": "fa3bd67a1e30ef5fdcebb39e738a3d7a",
+                "projectName": "Q",
+                "languages": [
+                    "JAVA"
+                ],
+                "sources": {
+                    "baseDir": "D:/testing",
+                    "exclusions": [
+                        "(?i)(test|generated|mock|thirdparty|third-party|3rd-party|3rdparty|external)"
+                    ]
+                }
+            },
+            "settings": {
+                "additionalOptions": [],
+                "includePaths": []
+            },
+            "modules": {
+                "coverage": [
+                    {
+                        "name": "clover",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "jacoco",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "binaryReportPath",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": false
+                                },
+                                {
+                                    "name": "xmlReportPath",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": false
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "codeissues": [
+                    {
+                        "name": "gamma_generic",
+                        "enabled": false,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "gamma_java",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    },
+                    {
+                        "name": "pmd",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "javaVersion",
+                                    "type": "text",
+                                    "value": "1.8",
+                                    "required": false
+                                },
+                                {
+                                    "name": "ruleSets",
+                                    "type": "text",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "unittest": [
+                    {
+                        "name": "junit",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "relevance": [
+                    {
+                        "name": "relevance",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
